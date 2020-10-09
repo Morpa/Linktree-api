@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_links",
+  "info": {
+    "name": "links",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "buttonLabel": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "buttonLink": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Social",
+        "Public"
+      ]
+    }
+  }
+}
