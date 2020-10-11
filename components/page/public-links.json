@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_public_links",
+  "info": {
+    "name": "publicLinks",
+    "icon": "external-link-square-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "buttonLabel": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "buttonLink": {
+      "type": "text"
+    }
+  }
+}

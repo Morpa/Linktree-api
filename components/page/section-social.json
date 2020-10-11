@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_section_socials",
+  "info": {
+    "name": "sectionSocial",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.social-links",
+      "required": true
+    }
+  }
+}

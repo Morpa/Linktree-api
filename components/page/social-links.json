@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_social_links",
+  "info": {
+    "name": "socialLinks",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "required": true
+    },
+    "buttonLabel": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "buttonLink": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

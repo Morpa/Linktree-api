@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_publics",
+  "info": {
+    "name": "sectionPublic",
+    "icon": "external-link-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "publicLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.public-links",
+      "required": true
+    }
+  }
+}

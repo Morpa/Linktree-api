@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_section_headers",
+  "info": {
+    "name": "sectionHeader",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "alternativeText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
